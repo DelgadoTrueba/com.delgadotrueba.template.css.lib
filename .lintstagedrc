@@ -1,3 +1,4 @@
 {
-  "**/*.scss": "npx stylelint --config .stylelintrc.json"
+  "**/*.scss": "npx stylelint --config .stylelintrc.json",
+  "**/*.js": "npx node -e 'process.exit(0)'"
 }
