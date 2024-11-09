@@ -15,7 +15,7 @@
     "build": "npm run build:design-tokens && npm run build:primereact-theme",
     "build:dev": "npm run build:dev:design-tokens",
     "build:primereact-theme": "sass src/primereact-theme-v8.0.4/index.scss dist/css/primereact-theme.css --style=compressed",
-    "build:design-tokens": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=./dist/ node ./scripts/design-tokens/build.js",
+    "build:design-tokens": "OUTPUT_BASE_FILENAME=dt-design-tokens OUTPUT_PATH=./dist/ node ./scripts/design-tokens/build.js",
     "build:dev:design-tokens": "DEV=true npm run build",
     "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",

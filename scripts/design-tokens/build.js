@@ -24,13 +24,13 @@ const directoryPath = path.join(__dirname, '../../dist/css');
 
 const filesToDelete = [
   'core.css',
-  'dt-theme.common.css',
-  'dt-theme.common.json',
-  'dt-theme.dark.css',
-  'dt-theme.dark.json',
-  'dt-theme.fonts.json',
-  'dt-theme.light.css',
-  'dt-theme.light.json'
+  'dt-design-tokens.common.css',
+  'dt-design-tokens.common.json',
+  'dt-design-tokens.dark.css',
+  'dt-design-tokens.dark.json',
+  'dt-design-tokens.fonts.json',
+  'dt-design-tokens.light.css',
+  'dt-design-tokens.light.json'
 ];
 
 if (!DEV) {
