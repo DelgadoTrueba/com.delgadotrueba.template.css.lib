@@ -1,4 +1,4 @@
-# @delgadotrueba/template-js
+# @delgadotrueba/template-css
 
 > description
 
@@ -34,7 +34,7 @@ npm publish
 Guide to use the Library
 
 ```
-npm install @delgadotrueba/template-js --save
+npm install @delgadotrueba/template-css --save
 ```
 
 ## Import
@@ -57,9 +57,9 @@ npm install @delgadotrueba/template-js --save
 
 MIT
 
-[npm-image]: https://img.shields.io/npm/v/%40delgadotrueba%template-js
-[npm-url]: https://www.npmjs.com/package/@delgadotrueba/template-js
-[downloads-image]: https://img.shields.io/npm/dy/%40delgadotrueba%template-js
-[downloads-url]: https://www.npmjs.com/package/@delgadotrueba/template-js
-[license-image]: http://img.shields.io/npm/l/%40delgadotrueba%template-js.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/%40delgadotrueba%template-css
+[npm-url]: https://www.npmjs.com/package/@delgadotrueba/template-css
+[downloads-image]: https://img.shields.io/npm/dy/%40delgadotrueba%template-css
+[downloads-url]: https://www.npmjs.com/package/@delgadotrueba/template-css
+[license-image]: http://img.shields.io/npm/l/%40delgadotrueba%template-css.svg?style=flat
 [license-url]: LICENSE.md

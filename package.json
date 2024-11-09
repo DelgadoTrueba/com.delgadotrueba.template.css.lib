@@ -1,5 +1,5 @@
 {
-  "name": "@delgadotrueba/template-js",
+  "name": "@delgadotrueba/template-css",
   "version": "0.0.1",
   "description": "Description",
   "author": "delgadotrueba",
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/delgadotrueba/template-js"
+    "url": "https://github.com/delgadotrueba/template-css"
   },
   "scripts": {
     "build": "npm run build:cjs && npm run build:mjs",
