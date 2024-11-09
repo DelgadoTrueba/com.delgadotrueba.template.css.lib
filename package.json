@@ -16,7 +16,7 @@
   },
   "scripts": {
     "build": "npm run build:cjs && npm run build:mjs",
-    "lint": "npx eslint  -c .eslintrc.json src/**/*.ts",
+    "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
     "prepublishOnly": "npm run test && npm run build"
@@ -27,7 +27,11 @@
     "commitlint": "19.3.0",
     "husky": "9.1.4",
     "lint-staged": "15.2.8",
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "stylelint": "16.10.0",
+    "stylelint-config-recommended-scss": "14.1.0",
+    "stylelint-config-standard": "36.0.1",
+    "stylelint-scss": "6.8.1"
   },
   "dependencies": {
     "tslib": "2.6.3"

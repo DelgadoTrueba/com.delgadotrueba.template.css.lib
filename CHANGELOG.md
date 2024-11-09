@@ -4,6 +4,6 @@
 
 - chore: 🏗️ add release-please
 - chore: 🏗️ add .lintstagedrc
-- chore: 🏗️ add commitlint.config.json
 - chore: 🏗️ add .prettierrc
+- chore: 🏗️ add commitlint.config.json
 - chore: 🏗️ add .npmrc & .nvmrc

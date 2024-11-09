@@ -1,0 +1,36 @@
+$spacing: (
+  "xs": 0.25rem,
+  "sm": 0.5rem,
+  "md": 1rem,
+  "lg": 2rem,
+  "xl": 4rem,
+);
+
+@each $key, $value in $spacing {
+  .m-#{$key} {
+    margin: $value;
+  }
+  .p-#{$key} {
+    padding: $value;
+  }
+}
+
+$colors: (
+  "black": rgb(33 33 33),
+  "black-75": rgb(33 33 33 / 75%),
+  "black-50": rgb(33 33 33 / 50%),
+  "black-25": rgb(33 33 33 / 25%),
+  "white": rgb(247 247 247),
+  "white-75": rgb(247 247 247 / 75%),
+  "white-50": rgb(247 247 247 / 50%),
+  "white-25": rgb(247 247 247 / 25%),
+);
+
+@each $key, $value in $colors {
+  .color-#{$key} {
+    color: $value;
+  }
+  .background-#{$key} {
+    background-color: $value;
+  }
+}
