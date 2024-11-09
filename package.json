@@ -12,8 +12,10 @@
     "url": "https://github.com/delgadotrueba/template-css"
   },
   "scripts": {
-    "build": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=./dist/ node ./scripts/design-tokens/build.js",
-    "build:dev": "DEV=true npm run build",
+    "build": "npm run build:design-tokens",
+    "build:dev": "npm run build:dev:design-tokens",
+    "build:design-tokens": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=./dist/ node ./scripts/design-tokens/build.js",
+    "build:dev:design-tokens": "DEV=true npm run build",
     "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
@@ -33,6 +35,7 @@
   "dependencies": {
     "deep-get-set": "1.1.2",
     "prettier": "2.8.8",
+    "sass": "1.80.6",
     "style-dictionary": "3.1.1",
     "tinycolor2": "1.4.2"
   },
