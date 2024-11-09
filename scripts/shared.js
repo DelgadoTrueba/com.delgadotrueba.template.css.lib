@@ -6,7 +6,7 @@ function setDefaultEnvValue(key, value) {
 
 setDefaultEnvValue(
     'CONFIG',
-    'default,css,tailwindcss-preset,figma'
+    'default,css,tailwindcss-preset'
 );
 setDefaultEnvValue('PREFIX', 'dt');
 setDefaultEnvValue('OUTPUT_PATH', 'dist/');

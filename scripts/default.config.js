@@ -11,7 +11,7 @@ const cssTransformGroup = [
 ];
 
 export default {
-  source: ['src/tokens/core/**/*.json5'],
+  source: ['src/design-tokens/core/**/*.json5'],
   "platforms": {
     "css": {
       transforms: [...cssTransformGroup],

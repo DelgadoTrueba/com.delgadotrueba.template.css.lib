@@ -8,8 +8,8 @@ const tailwindcssPresetTransformGroup = [
 ];
 
 export default {
-  include: ['src/tokens/core/**/*.json5'],
-  source: ['src/tokens/semantic/**/*.json5'],
+  include: ['src/design-tokens/core/**/*.json5'],
+  source: ['src/design-tokens/semantic/**/*.json5'],
   platforms: {
     tailwindcssPreset: {
       transforms: [...tailwindcssPresetTransformGroup],
