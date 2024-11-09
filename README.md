@@ -11,19 +11,18 @@
 Guide to Developing the Library
 
 ```
-nvm use v21.7.3
+nvm use v18.20.4
 npm i
 
 # Available Scripts
 npm run build
 npm run lint
-npm run test
 ```
 
 How to Manually Publish the Libray
 
 ```
-nvm use v21.7.3
+nvm use v18.20.4
 npm i
 
 npm publish
@@ -38,14 +37,6 @@ npm install @delgadotrueba/template-css --save
 ```
 
 ## Import
-
-### Commonjs
-
-```js
-
-```
-
-### ESM
 
 ```js
 
