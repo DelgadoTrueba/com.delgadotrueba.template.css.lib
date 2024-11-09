@@ -33,7 +33,9 @@
     "stylelint-scss": "6.8.1"
   },
   "dependencies": {
-    "tslib": "2.6.3"
+    "deep-get-set": "1.1.2",
+    "style-dictionary": "4.1.1",
+    "tinycolor2": "1.4.2"
   },
   "publishConfig": {
     "access": "public",
