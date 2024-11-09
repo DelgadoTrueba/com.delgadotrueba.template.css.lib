@@ -48,28 +48,14 @@
     "dist"
   ],
   "type": "module",
-  "main": "./dist/cjs/src/index.js",
-  "module": "./dist/mjs/src/index.js",
-  "types": "./dist/mjs/src/index.d.ts",
+  "main": "./dist/index.js",
   "exports": {
-    ".": {
+    "./tailwindcss-preset": {
       "require": {
-        "default": "./dist/cjs/src/index.js",
-        "types": "./dist/cjs/src/index.d.ts"
+        "default": "./dist/tailwindcss-preset/dt-design-tokens.config.js"
       },
       "import": {
-        "default": "./dist/mjs/src/index.js",
-        "types": "./dist/mjs/src/index.d.ts"
-      }
-    },
-    "./public-api": {
-      "require": {
-        "default": "./dist/cjs/src/public-api.js",
-        "types": "./dist/cjs/src/public-api.d.ts"
-      },
-      "import": {
-        "default": "./dist/mjs/src/public-api.js",
-        "types": "./dist/mjs/src/public-api.d.ts"
+        "default": "./dist/tailwindcss-preset/dt-design-tokens.config.js"
       }
     }
   },

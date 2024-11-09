@@ -34,6 +34,10 @@ Guide to use the Library
 
 ```
 npm install @delgadotrueba/template-css --save
+
+# change
+//package.json
+dt-design-tokens
 ```
 
 ## Import
