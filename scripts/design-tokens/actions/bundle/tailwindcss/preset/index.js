@@ -1,7 +1,7 @@
 import StyleDictionary from 'style-dictionary';
 import prettier from 'prettier';
 import deep from 'deep-get-set';
-import { kebabCase } from '../../utils/name/kebabCase/index.js';
+import { kebabCase } from '../../../../utils/name/kebabCase/index.js';
 
 /**
  * Custom formatter for Tailwind CSS config preset
