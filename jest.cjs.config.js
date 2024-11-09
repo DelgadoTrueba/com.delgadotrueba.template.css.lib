@@ -1,6 +1,6 @@
 /* eslint-disable */
 module.exports = {
-  displayName: 'http',
+  displayName: 'template-js',
   preset: './jest.preset.js',
   testEnvironment: 'node',
   transform: {
