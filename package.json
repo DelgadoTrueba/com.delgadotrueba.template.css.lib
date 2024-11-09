@@ -12,7 +12,8 @@
     "url": "https://github.com/delgadotrueba/template-css"
   },
   "scripts": {
-    "build": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=dist/ node scripts/build.js",
+    "build": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=./dist/ node ./scripts/design-tokens/build.js",
+    "build:dev": "DEV=true npm run build",
     "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
