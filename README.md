@@ -39,6 +39,7 @@ npm install @delgadotrueba/template-css --save
 ## Import
 
 ```js
+import "@delgadotrueba/template-css/dist/css/index.css"
 
 ```
 
