@@ -4,10 +4,7 @@
   "description": "Description",
   "author": "delgadotrueba",
   "keywords": [
-    "http",
-    "httpMock",
-    "httpMockService",
-    "httpService"
+    "dt-design-tokens"
   ],
   "license": "MIT",
   "repository": {
@@ -15,7 +12,7 @@
     "url": "https://github.com/delgadotrueba/template-css"
   },
   "scripts": {
-    "build": "npm run build:cjs && npm run build:mjs",
+    "build": "OUTPUT_BASE_FILENAME=dt-theme OUTPUT_PATH=dist/ node scripts/build.js",
     "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",

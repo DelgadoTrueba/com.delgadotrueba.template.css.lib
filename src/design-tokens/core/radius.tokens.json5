@@ -1,0 +1,40 @@
+{
+    "core": {
+        "radius": {
+            "0": {
+                "value": "0px",
+                "type": "dimension"
+            },
+            "10": {
+                "value": "2px",
+                "type": "dimension"
+            },
+            "20": {
+                "value": "4px",
+                "type": "dimension"
+            },
+            "30": {
+                "value": "6px",
+                "type": "dimension"
+            },
+            "40": {
+                "value": "8px",
+                "type": "dimension"
+            },
+            "60": {
+                "value": "12px",
+                "type": "dimension"
+            },
+            "500": {
+                "comment": "Used for ui elements like radio buttons or things like avatars",
+                "value": "50%",
+                "type": "percentage"
+            },
+            "900": {
+                "comment": "Used for pill-shaped ui elements",
+                "value": "999px",
+                "type": "dimension"
+            }
+        }
+    }
+}
