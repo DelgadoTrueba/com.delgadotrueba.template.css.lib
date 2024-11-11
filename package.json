@@ -20,7 +20,8 @@
     "lint": "npx stylelint 'src/**/*.{css,scss}' --config .stylelintrc.json",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
-    "prepublishOnly": "npm run test && npm run build"
+    "prepublishOnly": "npm run lint && npm run build",
+    "postpublish": "node scripts/update-version.js"
   },
   "devDependencies": {
     "@commitlint/cli": "19.3.0",
